@@ -1,4 +1,5 @@
 alias ls='ls -G'
+alias ll='ls -l'
 export LSCOLORS=AxFxCxDxBxegedabagaced
 #export PS1="\W\\$ "
 export GOPATH=$HOME/code/go
