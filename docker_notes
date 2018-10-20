@@ -1,1 +1,8 @@
 $ docker run -it --name llss -v $PWD:/home/jlg alpinejlg
+$ docker run -it --rm --name llss -v $PWD:/home/jlg alpinejlg
+
+
+FROM alpine:3.8
+RUN apk add bash at at file sudo
+#RUN apk add bash at util-linux at coreutils procps sysstat file sudo
+RUN adduser -D jlg --shell=/bin/bash && echo jlg:alpine | chpasswd
