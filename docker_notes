@@ -1,5 +1,6 @@
 $ docker run -it --name llss -v $PWD:/home/jlg alpinejlg
 $ docker run -it --rm --name llss -v $PWD:/home/jlg alpinejlg
+docker run -it --rm --name cs160b -v $PWD:/home/jlg alpinejlg
 
 
 FROM alpine:3.8
