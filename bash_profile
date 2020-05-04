@@ -1,5 +1,7 @@
 alias ls='ls -G'
 alias ll='ls -l'
+alias dockeri='docker image'
+alias dockerc='docker container'
 export LSCOLORS=AxFxCxDxBxegedabagaced
 #export PS1="\W\\$ "
 export GOPATH=$HOME/code/go
